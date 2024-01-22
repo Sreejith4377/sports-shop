@@ -1,0 +1,821 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.gridlayout{
+    margin: auto;
+    width: 95%;
+}
+.maindivul{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+.maindivul li{
+    list-style-type: none;
+    margin-right: 50px;
+    margin-top: 40px;
+    
+}
+.maindiv{
+    display: flex;
+    justify-content: space-between;
+}
+.bgimage{
+    background: url(../images/Banner.png);    
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    
+}
+.content h1{
+    color: white;    
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 35px
+    
+}
+.content p{
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    width: 30%;
+    margin: 20px 0px;
+}
+.content button{
+    font-family: 'Outfit', sans-serif;
+    padding: 10px 12px;
+    font-weight: bold;
+}
+.content{
+    padding: 150px 0px;
+}
+.brandimage{
+    margin: 60px 0px 60px 200px;
+}
+h2{
+    font-family: 'Outfit', sans-serif;
+
+}
+.maincard{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    flex-wrap: wrap;
+}
+.subcardone{
+    width: 25%;
+    border: 1px solid  #D1B2B2;
+    margin-bottom: 20px;
+}
+.subcardtwo{
+    width: 25%;
+    border: 1px solid  #D1B2B2;
+    margin-bottom: 20px;
+}
+.subcardthree{
+    width: 25%;
+    border: 1px solid  #D1B2B2;
+    margin-bottom: 20px;
+}
+.cardcontent{
+    padding: 20px;
+}
+.cardcontent p{
+    font-family: 'Outfit', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 15px;
+
+}
+.cardcontent h4{
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+.cardcontent button{
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    padding: 10px 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    margin-bottom: 25px;
+
+}
+.cardimageone img{
+    width: 100%;
+
+}
+.cardimagetwo img{
+    width: 100%;
+
+    
+}
+.cardimagethree img{
+    width: 100%;
+
+    
+}
+.lineone{
+    width: 70px;
+    border: 2px solid #FD0404;
+    margin-top: 5px;
+
+}
+.eventcards{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    
+}
+.swimcards{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+
+.collections{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+    
+    
+}
+.collections h4{
+   text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+.cardiocard{
+    border: 1px solid #9B9B9B;
+    padding-bottom: 10px;
+    
+
+}
+.bodybuildingcard{
+    border: 1px solid #9B9B9B;
+    padding-bottom: 10px;
+    
+
+}
+.joggingcard{
+    border: 1px solid #9B9B9B;
+    padding-bottom: 10px;
+    
+}
+.sportsgallery{
+    text-align: center;
+    /* padding: 20px 0px; */
+    margin-top: 10px;
+}
+.linetwo{
+    width: 83px;
+    border: 2px solid #FD0404;
+    margin-left: 599px;
+    margin-top: 5px;    
+ 
+}
+.subboxone{
+    width: 70%;
+    height: 700px;
+    /* background-color: aqua; */
+    margin-bottom: 20px;
+    
+}
+.subboxtwo{
+    width: 30%;
+    height: 700px;
+    margin-left: -27px;
+    /* background-color: black; */
+}
+.mainbox{
+    display: flex;
+    margin-top: 20px;
+}
+.mainsubboxone{
+    display: flex;
+    
+}
+.box1{
+    width: 95%;
+    height: 470px;
+    /* background-color: blue; */
+}
+.box2{
+    width: 46%;
+    height: 210px;
+    /* background-color: brown; */
+    margin-top: 20px;
+}
+.box3{
+    width: 46%;
+    height: 210px;
+    /* background-color: violet; */
+    margin-left: 27px;
+    margin-top: 20px;
+
+}
+.box4{
+    width: 100%;
+    height: 210px;
+    /* background-color: orange; */
+
+}
+.box5{
+    width: 100%;
+    height: 210px; 
+    /* background-color: orangered; */
+
+}
+.box6{
+    width: 100%;
+    height: 210px;
+    /* background-color: chartreuse; */
+    margin-top: 70px;
+
+}
+.box1 img{
+    width: 100%;
+    height: 470px;
+    overflow: auto;
+
+}
+.box2 img{
+    width: 100%;
+    height: 210px;
+}
+.box3 img{
+    width: 100%;
+    height: 210px;
+
+}
+.box4 img{
+    width: 100%;
+    height: 225px;
+
+}
+.box5 img{
+    width: 100%;
+    height: 230px;
+    position: relative;
+    top: 30px;
+    
+}
+.box6 img{
+    width: 100%;
+    height: 210px;
+    
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.line1{
+    width: 30px;
+    border: 2px solid #FD0404;
+    margin-top: 2px;
+
+}
+.line2{
+    width: 50px;
+    border: 2px solid #FD0404;
+    margin-top: 2px;
+
+}
+.line3{
+    width: 50px;
+    border: 2px solid #FD0404;
+    margin-top: 2px;
+
+}
+.line4{
+    width: 70px;
+    border: 2px solid #FD0404;
+    margin-top: 2px;
+
+}
+.address h4{
+    font-size: medium;
+    font-family: 'Outfit', sans-serif;
+}
+.accountinfo h4{
+    font-size: medium;
+    font-family: 'Outfit', sans-serif;
+}
+.quicklinks h4{
+    font-size: medium;
+    font-family: 'Outfit', sans-serif;
+}
+.emailaddress h4{
+    font-size: medium;
+    font-family: 'Outfit', sans-serif;
+}
+footer{
+    padding: 30px;
+    background-color: #E8E3E3;
+    
+    
+}
+.address p{
+    width: 36%;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+.accountinfo ul li{
+    list-style-type: none;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    
+}
+.quicklinks ul li{
+    list-style-type: none;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+.emailaddress p{
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+}
+.emailbox input{
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    background-color: #E8E3E3;
+}
+.emailbox img{
+    margin-left: -30px;
+    position: relative;
+    top: 5px;
+}
+.accountinfo{
+   margin-left: -260px;
+}
+.copyrights{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: 'Outfit', sans-serif;   
+}
+.design p {
+     font-size: smaller;
+}
+.rights p{
+    font-size: smaller;
+}
+.maindivul li a{
+    color: black;
+    text-decoration: none;
+}
+header{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 2;
+}
+
+.hovergymcontent{
+    opacity: 0;
+    background-color: rgb(0, 0, 0 , 0.3);
+    color: white;
+    height: 70%;
+    width: 100%;
+}
+.gymcard:hover .hovergymcontent {
+    opacity: 1;
+    position: absolute;
+    top: 0;
+}
+.gymcard{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+.hoverrunningcontent{
+    opacity: 0;
+    background-color: rgb(0, 0, 0 , 0.3);
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+.runningcard:hover .hoverrunningcontent{
+    opacity: 1;
+    position: absolute;
+    top: 0;
+}
+.runningcard{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+.hovercyclingcontent{
+    opacity: 0;
+    background-color: rgb(0, 0, 0,0.3);
+    color: white;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    
+    
+    
+}
+.hoverrunningcontent h4{
+    margin-top: 60px;
+}
+.cyclingcard:hover .hovercyclingcontent{
+    opacity: 1;
+    position: absolute;
+    top: 0;
+}
+.cyclingcard{
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+.hovergymcontent h4{
+    margin-top: 250px;
+    /* margin-left: 60px; */
+    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+
+}
+.hoverrunningcontent h4{
+    margin-top: 250px;
+    /* margin-left: 60px; */
+    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+
+}
+.hovercyclingcontent h4{
+    margin-top: 250px;
+    /* margin-left: 60px; */
+    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+
+
+}
+.hoverswimsuitwomencontent{
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: all 0.4s;
+}
+.hoverswimsuitwomen:hover .hoverswimsuitwomencontent {
+    opacity: 1;
+}
+.hoverswimsuitwomen{
+    position: relative;
+    overflow: hidden;
+
+}
+.hoverswimsuitwomencontent h4{
+    /* margin-top: 250px;
+    margin-left: 60px; */
+    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    margin-top: 50%; 
+
+
+}
+.hoverswimsuitmencontent{
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: all 0.4s;
+    
+
+}
+.hoverswimsuitmen:hover .hoverswimsuitmencontent{
+    opacity: 1;
+    position: absolute;
+    top: 0;
+}
+.hoverswimsuitmen{
+    position: relative;
+    overflow: hidden;
+    
+}
+.hoverswimsuitmencontent h4{
+    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    margin-top: 50%; 
+
+
+
+}
+
+.hoverswimmimggooglescontent{
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: all 0.4s;
+    
+
+}
+.hoverswimmimggoogles:hover .hoverswimmimggooglescontent{
+    opacity: 1;
+    position: absolute;
+    top: 0;
+}
+.hoverswimmimggoogles{
+    position: relative;
+    overflow: hidden;
+
+}
+.hoverswimmimggooglescontent h4{
+    font-size: 30px;
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    margin-top: 50%; 
+
+}
+.hovercardiocontent{
+    opacity: 0;
+    background-color: rgb(0, 0, 0 , 0.3);
+    color: white;
+    height: 100%;
+    width: 100%;
+    
+}
+.hovercardio:hover .hovercardiocontent{
+    opacity: 1;
+    position: absolute;
+    top: 0;
+}
+.hovercardio{
+    position: relative;
+    overflow: hidden;
+
+}
+.hovercardiocontent h5{
+    margin-top: 370px;
+    margin-left: 90px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.hoverbodybuildingcontent{
+    opacity: 0;
+    background-color: rgb(0, 0, 0 , 0.3);
+    color: white;
+    height: 100%;
+    width: 100%;
+
+}
+.hoverbodybuilding:hover .hoverbodybuildingcontent{
+    opacity: 1;
+    position: absolute;
+    top: 0;
+}
+.hoverbodybuilding{
+    position: relative;
+    overflow: hidden;
+
+}
+.hoverbodybuildingcontent h5{
+    margin-top: 370px;
+    margin-left: 90px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.hoverjoggingcontent{
+    opacity: 0;
+    background-color: rgb(0, 0, 0 , 0.3);
+    color: white;
+    height: 100%;
+    width: 100%;
+
+}
+.hoverjogging:hover .hoverjoggingcontent{
+    opacity: 1;
+    position: absolute;
+    top: 0;
+}
+.hoverjogging{
+    position: relative;
+    overflow: hidden;
+
+}
+.hoverjoggingcontent h5{
+    margin-top: 370px;
+    margin-left: 90px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif; 
+
+}
+.bodybuildingcard{
+    height: 50%;
+    
+}
+.joggingcard{
+    height: 50%;
+}
+.cardiocard{
+    height: 50%;
+
+}
+.hovergymimage img{
+    width: 100%;
+    height: auto;
+}
+.hovergymcontent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+.hovergymcontent h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+}
+.fitness{
+    text-align: center;
+    margin-top: 50%;
+}
+
+
+
+
+
+@media screen and ( max-width:500px) {
+.eventcards,.swimcards,.collections,.maincard,.footer{
+    display: block;
+}
+.brandimage{
+    margin : 60px 0px 60px 0px;
+    width: 100%;
+} 
+.content h1{
+    font-size: 13px;
+}
+.content p{
+    font-size: 10px;
+}
+.bgimage {
+    height: auto;
+}
+.subdivtwo{
+    display: flex;
+}
+
+.linetwo{
+    margin-left: 0;
+    margin: auto;
+}
+.subcardone,.subcardtwo,.subcardthree{
+    width: 100%;
+}
+.maindivul li a{
+    font-size: 10px;
+    margin-right: 0;
+}
+
+.maindivul li {
+    margin-right: 10px;
+}
+.content{
+    padding: 20px 0px;
+}
+.box1 img{
+    height: auto;
+    overflow: hidden;
+}
+.box4 img {
+    width: 100%;   
+}
+.box1 img , .box4 img ,.box5 img ,.box2 img ,.box3 img ,.box6 img ,.subboxone,.subboxtwo,.box1,.box2,.box3,.box4,.box5,.box6{
+    height: auto;
+}
+.subboxtwo{
+    margin-left: 0;
+}
+.box5 img{
+    top: 0px;
+}
+.box6{
+    margin-top: 35px;
+}
+.box3{
+    margin-left: 10px;
+}
+.quicklinks{
+    margin-top: -100px;
+}
+.address p{
+    width: 51%;
+}
+/* header,footer,main{
+    overflow: hidden;
+} */
+.gridlayout {
+    margin: auto;
+    width: 94%;
+}
+}
+
+
+
+
+
+
+.container{
+
+    position: relative;
+    overflow: hidden;
+}
+.container img{
+    width: 100%;
+    height: auto;
+}
+.container:hover .t{
+    opacity: 1;
+}
+.t{
+    color: white;
+    background-color: rgba(0,0,0,0.8);
+    position: absolute;
+    top: 0%;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: all 0.4s;
+}
+/* img, img, img{
+    width: 100%;
+    height: auto;
+} */
+@media (min-width:700px) and (max-width:850px) {
+    .maindiv ,.bgimage ,.maincard ,.eventcards ,.swimcards{
+        width: 140%;
+    }
+    .brandimage{
+        width: 90%;
+    }
+    .mainbox{
+        width: 144%;
+    }
+    footer{
+        width: 132%;
+    }
+    .copyrights{
+        width: 134%;
+    }
+    .copyrights
+    {
+       width: 136%;
+    }
+    .linetwo{
+         margin-left: 500px
+    }
+    .sportsgallery {
+        width: 140%;
+
+    }
+
+
+}
